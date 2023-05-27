@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended:true}));
 
 // Connect mongodb with nodejs
 
-const uri = "mongodb+srv://erakash7566:root12345@cluster0.3vyf8og.mongodb.net/?retryWrites=true&w=majority
+const uri = "mongodb+srv://erakash7566:root12345@cluster0.3vyf8og.mongodb.net/?retryWrites=true&w=majority"
 
 mongo
   .connect(uri)
